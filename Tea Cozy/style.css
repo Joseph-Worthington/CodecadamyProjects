@@ -1,0 +1,139 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+html
+body{
+    margin: 0;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.7;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+/* Universal Styles*/
+
+h2{
+    font-size: 2em;
+    margin: 10px;
+}
+h4{
+    font-weight: 800;
+    margin:10px;
+}
+li{
+    list-style: none;
+}
+
+/*Header styling*/
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:69px;
+    width:100%;
+    position:sticky;
+}
+.website-logo img{
+    height: 50px;
+    margin-left:10px; 
+}
+nav{
+    margin-right:10px;
+}
+a{
+    color: seashell;
+    padding: 10px;
+}
+
+/* Main content CSS */
+.container{
+    margin: 0 56px;
+}
+.hero{
+    background-image: url("./imgs/img-mission-background.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+}
+.tea-content{
+    padding-top: 100px;
+    margin: 0 auto;
+    width: 1000px;
+
+}
+.tea-flex-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 30px;;
+    
+}
+.info-card img{
+    width: 300px;
+    height: 200px;
+}
+
+.locations-wrapper{
+    height: 500px;
+    background-image: url("./imgs/img-locations-background.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px ;
+}
+.location-card-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.location-card{
+    width: 300px;
+    background-color: black;
+    margin-top: 15px;
+    opacity: 1;
+}
+.location-card ul{
+    padding: 0;
+}
+.location-card ul li{
+    padding: 15px 0;
+}
+.location-card ul li h4{
+    margin: 0;
+}
+
+
+
+
+.contact-info{
+    height: 200px;
+}
+footer h2{
+    padding-bottom: 30px;
+}
+.align-left{
+    text-align: left;
+    padding: 0 0 0 20px;
+}

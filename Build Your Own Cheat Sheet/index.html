@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"" href="./styles.css"> 
+    <title>Cheat Sheet</title>
+</head>
+<body>
+    <header>
+        <h1>CSS Selectors & Specifity</h1>
+    </header>
+
+    <!-- Table of CSS slectors -->
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        CSS Selector
+                    </th>
+                    <th>
+                        Example
+                    </th>
+                    <th>
+                        Explanation
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Select by #id
+                    </td>
+                    <td>
+                        #firstname
+                    </td>
+                    <td>
+                        #id is the most specifc selector as only one element will have that specific #id. Only the element with the specific #id of id="firstname" will be affected by this selector. It will overwrite any existing CSS from other selectors such as .class or element as they are lower in the selector heirarchy.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Select by .class
+                    </td>
+                    <td>
+                        .intro
+                    </td>
+                    <td>
+                        .class ranks second in the select heirarchy, it is more specific than an element but can be overwritten by the #id. .class is a great way to style multiple elements at a time, as the selector can be added to multiple items, allowing you to reuse the same styling any elements you add the class="intro" too.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Select by Element
+                    </td>
+                    <td>
+                        p
+                    </td>
+                    <td>
+                        element is the lowest selector in the heirarchy, using it will affect any element with that tag but the CSS from an element selector can easly be overwritten using a .class or #id selector as they are more specific. It is easy way to add unversal styles to tags, any <code><p></code> element will be effected by this selector
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>
+                        All selectors can be used together to create more specific slectors, to target single areas or specific elements of a page
+                    </td>
+                    <td colspan="2">
+                        p .class will target every p element with a specific class. #id .class will target only the elements that have both the specifi #id pluss the extra class.
+                    </td>                                                                                      
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+</body>
+</html>

@@ -1,0 +1,24 @@
+/* Styling the header */
+*{
+    margin: 0;
+}
+header{
+    text-align: center;
+    background-color:#3a70c2;
+    color: white;
+    padding:25px 0;
+    font-size: 2em;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+/* Styling the table */
+table{
+    margin: 25px 56px;
+    border-collapse: collapse;
+}
+table, td,th{
+    border: 1px solid black;
+}
+th, td{
+    min-width: 350px;
+}
