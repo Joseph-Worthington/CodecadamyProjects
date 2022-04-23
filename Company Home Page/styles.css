@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    background-color: rgb(31, 157, 161);
+    color: azure;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-size: 8rem;
+}
+h2{
+    font-size: 4rem;
+    margin: 50px auto;
+}
+h3{
+    margin: 10px auto;
+}
+p{
+    line-height: 1.5;
+    padding: 5px 15px;
+}
+section{
+    height: 90vh;
+}
+button{
+    background-color: aliceblue;
+    border: solid rgb(58, 58, 58) 1px;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+button a{
+    width: 100%;
+    height: 100%;
+    padding: 10px 15px;
+    margin: 10px auto;
+}
+button:hover{
+    background-color: rgb(58, 58, 58);
+}
+button a:hover{
+    color: aliceblue;
+}
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: white;
+    z-index: 3;
+}
+header ul{
+    display: flex;
+    column-gap: 50px;
+    list-style: none;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-right: 50px;
+    color:rgb(31, 157, 161);
+}
+header ul li a{
+    text-decoration: none;
+    color: rgb(31, 157, 161);
+    position: relative;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+header ul li a:hover {
+    color: #fff;
+    box-shadow: inset 200px 0 0 0 #54b3d6;
+}
+
+header ul li{
+    position: relative;
+}
+.desktop{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    max-width: 100px;
+    padding-left: 50px;
+}
+.hero-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('./imgs/Caravana-surf-2048x1262.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+.hero-block::after{
+    content: "";
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    width:100%;
+    height: 100%;
+}
+.container{
+    margin: 0 80px;
+    z-index: 2;
+}
+.mission-statement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mission-statement p{
+    font-size: 2.5rem;
+}
+.meet-the-team{
+    position: relative;
+    margin-top: 300px;
+}
+.product-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 20px;
+}
+.product-card{
+    height: 100%;
+    width: auto;
+    background-color: aliceblue;
+    color: rgb(58, 58, 58);
+}
+.product-card img{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+
+}
+.product-card h3{
+    margin: 10px auto;
+}
+.team-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.team-card{
+    width: 400px;
+    background-color: aliceblue;
+    color: rgb(58, 58, 58);
+    padding-bottom: 30px;
+}
+.team-card img{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
