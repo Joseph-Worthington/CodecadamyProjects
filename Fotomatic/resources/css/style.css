@@ -38,7 +38,7 @@ html {
 
 header {
   position: fixed;
-  width:100%;
+  width:100%;F
   overflow: hidden;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
@@ -101,7 +101,7 @@ header .mobile {
 
   header .mobile ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
   }
 
@@ -140,7 +140,7 @@ header .mobile {
 }
 
 #sign-up-cta .content {
-  width: 25.625rem;
+  max-width: 25.625rem;
   margin-top: 2rem;
   font-family: "Roboto", sans-serif;
   font-size: 1.25rem;
