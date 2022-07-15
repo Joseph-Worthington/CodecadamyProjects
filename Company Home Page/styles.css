@@ -1,3 +1,5 @@
+
+@media screen {
 *{
     padding: 0;
     margin: 0;
@@ -174,4 +176,5 @@ header ul li{
     width: 400px;
     height: 400px;
     object-fit: cover;
+}
 }
